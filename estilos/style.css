@@ -5,3 +5,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../imagens/Netflix.jpg);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+}
+
+header h1 {
+    color: red;
+    margin-right: 220px;
+    text-align: left;
+}
+
+header h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+header menu {
+    text-align: right;
+}
+
+header > div > input#email {
+    height: 45px;
+    width: 90%;
+    margin-bottom: 10px;
+    text-indent: 10px;
+}
+
+header > div > input#entrar {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border: none;
+    padding: 12px;
+    font-size: 17px;
+}
+
+header > div > input#entrar:hover {
+    cursor: pointer;
+}
+
+header p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+section {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
