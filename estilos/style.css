@@ -23,6 +23,12 @@ body {
     font-family: 'Netflix regular';
 }
 
+header, section {
+    border-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(56, 55, 55);
+}
+
 header {
     background-image: url(../imagens/Netflix.jpg);
     background-size: cover;
