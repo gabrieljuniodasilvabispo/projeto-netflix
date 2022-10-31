@@ -10,21 +10,25 @@
 </head>
 <body>
     <header>
-        <h1>Netflix</h1>
-        <menu>
-            <select name="" id="linguagem">
-                <option value="PT-BR">Portugues</option>
-                <option value="EN">Inglês</option>
-            </select>
-            <a href="#">Entrar</a>
-        </menu>
+        <div class="cabeca">
+            <h1>Netflix</h1>
+            <menu>
+                <select name="" id="linguagem">
+                    <option value="PT-BR">Portugues</option>
+                    <option value="EN">Inglês</option>
+                </select>
+                <a href="#" target="_self" rel="next">Entrar</a>
+            </menu>
+        </div>
 
-        <div>
+        <div class="cabeca2">
             <h2>Filmes, séries e muito mais. Sem limites.</h2>
             <p>Assista onde quiser. Cancele quando quiser</p>
             <p>Pronto para assistir? Informe seu email para criar ou reinicar sua assinatura.</p>
-            <input type="email" name="" id="email" placeholder="Email">
-            <input type="submit" value="Vamos lá >" id="entrar">
+            <form action="cadastro.js" method="post" autocomplete="on">
+                <input type="email" name="" id="email" placeholder="Email">
+                <input type="submit" value="Vamos lá >" id="entrar">
+            </form>
         </div>
     </header>
 

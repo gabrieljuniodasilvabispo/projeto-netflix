@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Netflix regular';
+    src: url(../fontes/NetflixSans-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Netflix light';
+    src: url(../fontes/NetflixSans-Light.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Netflix bold';
+    src: url(../fontes/NetflixSans-Bold.otf) format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,11 +20,13 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Netflix regular';
 }
 
 header {
     background-image: url(../imagens/Netflix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: black;
     color: white;
     text-align: center;
@@ -19,39 +34,67 @@ header {
     height: 500px;
 }
 
+header div.cabeca {
+    display: flex;
+    justify-content: space-between;
+}
+
 header h1 {
     color: red;
-    margin-right: 220px;
-    text-align: left;
+}
+
+header a {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 3px;
+    font-family: 'Netflix light';
+}
+
+header select {
+    background-color: black;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.726);
+    padding: 3px;
+    border-radius: 4px;
+}
+
+header div.cabeca2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
 }
 
 header h2 {
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 20px;
     font-size: 1.6em;
 }
 
-header menu {
-    text-align: right;
+header form {
+    width: 100vw;
 }
 
-header > div > input#email {
-    height: 45px;
-    width: 90%;
+header input#email {
+    height: 50px;
+    width: 98%;
     margin-bottom: 10px;
     text-indent: 10px;
 }
 
-header > div > input#entrar {
+header input#entrar {
     background-color: red;
     color: white;
     display: inline-block;
     border: none;
-    padding: 12px;
+    padding: 10px;
     font-size: 17px;
+    width: 110px;
 }
 
-header > div > input#entrar:hover {
+header input#entrar:hover {
     cursor: pointer;
 }
 
