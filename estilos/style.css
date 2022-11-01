@@ -105,7 +105,7 @@ input.entrar {
     width: 110px;
 }
 
-header input#entrar:hover {
+header input.entrar:hover {
     cursor: pointer;
 }
 
