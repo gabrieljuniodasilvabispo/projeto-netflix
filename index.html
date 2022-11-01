@@ -26,47 +26,57 @@
             <p>Assista onde quiser. Cancele quando quiser</p>
             <p>Pronto para assistir? Informe seu email para criar ou reinicar sua assinatura.</p>
             <form action="cadastro.js" method="post" autocomplete="on">
-                <input type="email" name="" id="email" placeholder="Email">
-                <input type="submit" value="Vamos lá >" id="entrar">
+                <input type="email" name="" id="email" class="mail" placeholder="Email">
+                <input type="submit" value="Vamos lá >" class="entrar">
             </form>
         </div>
     </header>
 
     <main>
         <section>
-            <h2>Aproveite na TV.</h2>
-            <p>Assita em Smart TVs, Playstation,Xbox, Chromecast, Apple TV, aparelhos de blu-ray e outros dispositivos.</p>
+            <div class="content">
+                <h2>Aproveite na TV.</h2>
+                <p>Assita em Smart TVs, Playstation,Xbox, Chromecast, Apple TV, aparelhos de blu-ray e outros dispositivos.</p>
+            </div>
+            <aside><img src="./imagens/tv.png" alt="YV"></aside>
         </section>
 
         <section>
-            <h2>Baixe séries para assistir offline.</h2>
-            <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
+            <div class="content">
+                <h2>Baixe séries para assistir offline.</h2>
+                <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
+            </div>
+            <aside><img src="./imagens/s_things.jpg" alt="Stranger Things"></aside>
         </section>
 
         <section>
-            <h2>Assista quando quiser.</h2>
-            <p>Assita no seu celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+            <div class="content">
+                <h2>Assista quando quiser.</h2>
+                <p>Assita no seu celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
+            </div>
         </section>
 
         <section>
-            <h2>Crie perfis para crianças.</h2>
-            <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar por isso.</p>
+            <div class="content">
+                <h2>Crie perfis para crianças.</h2>
+                <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar por isso.</p>
+            </div>
         </section>
 
-        <section>
+        <section id="questions">
             <h2>Perguntas Frequentes</h2>
-            <div>Oque é a Netflix?</div>
-            <div>Quanto custa a Netflix?</div>
-            <div>Onde posso assistir?</div>
-            <div>Como faço para cancelar?</div>
-            <div>Onde posso assistir?</div>
-            <div>Oque eu posso assistir?</div>
-            <div>A netflix é adequada para crianças?</div>
+            <div class="ask"><p>Oque é a Netflix?</p></div>
+            <div class="ask"><p>Quanto custa a Netflix?</p></div>
+            <div class="ask"><p>Onde posso assistir?</p></div>
+            <div class="ask"><p>Como faço para cancelar?</p></div>
+            <div class="ask"><p>Onde posso assistir?</p></div>
+            <div class="ask"><p>Oque eu posso assistir?</p></div>
+            <div class="ask"><p>A netflix é adequada para crianças?</p></div>
 
             <div>
                 <p>Pronto para assitir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                <input type="email" name="" id="email">
-                <input type="submit" value="Vamos lá >">
+                <input type="email" name="" id="fmail" class="mail">
+                <input type="submit" value="Vamos lá >" class="entrar">
             </div>
         </section>
     </main>
@@ -85,6 +95,10 @@
                 <li><a href="#">Teste de velocidade</a></li>
             </ul>
         </nav>
+        <select name="" id="linguagem">
+            <option value="PT-BR">Portugues</option>
+            <option value="EN">Inglês</option>
+        </select>
     </footer>
 </body>
 </html>
