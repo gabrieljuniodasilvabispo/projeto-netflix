@@ -7,6 +7,7 @@
     <title>Netflix</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style-desktop.css" media="screen and (min-width: 992px)">
 </head>
 <body>
     <header>
@@ -24,43 +25,45 @@
         <div class="cabeca2">
             <h2>Filmes, séries e muito mais. Sem limites.</h2>
             <p>Assista onde quiser. Cancele quando quiser</p>
-            <p>Pronto para assistir? Informe seu email para criar ou reinicar sua assinatura.</p>
+            <p class="second-p">Pronto para assistir? Informe seu email para criar ou reinicar sua assinatura.</p>
             <form action="cadastro.js" method="post" autocomplete="on">
-                <input type="email" name="" id="email" class="mail" placeholder="Email">
+                <input type="email" name="" id="email" class="mail" placeholder="Email" autocomplete="email">
                 <input type="submit" value="Vamos lá >" class="entrar">
             </form>
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="content-desktop">
             <div class="content">
                 <h2>Aproveite na TV.</h2>
                 <p>Assita em Smart TVs, Playstation,Xbox, Chromecast, Apple TV, aparelhos de blu-ray e outros dispositivos.</p>
             </div>
-            <aside><img src="./imagens/tv.png" alt="YV"></aside>
+            <aside class="photo-right"><img src="./imagens/tv.png" alt="YV"></aside>
         </section>
 
-        <section>
-            <div class="content">
+        <section class="content-desktop">
+            <div class="content" id="left">
                 <h2>Baixe séries para assistir offline.</h2>
                 <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
             </div>
-            <aside><img src="./imagens/s_things.jpg" alt="Stranger Things"></aside>
+            <aside class="photo-left"><img src="./imagens/s_things.jpg" alt="Stranger Things"></aside>
         </section>
 
-        <section>
+        <section class="content-desktop">
             <div class="content">
                 <h2>Assista quando quiser.</h2>
                 <p>Assita no seu celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
             </div>
+            <aside class="photo-right"><img src="./imagens/device-pile.png" alt=""></aside>
         </section>
 
-        <section>
-            <div class="content">
+        <section class="content-desktop">
+            <div class="content" id="left2">
                 <h2>Crie perfis para crianças.</h2>
                 <p>Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar por isso.</p>
             </div>
+            <aside class="photo-left"><img src="imagens/AAAABWGB3YOpSh2wA7OOZQYD-MkalQ0oJEy-YEEpoPKAIenLtZf5lKeERDdKj-u6WnZx9wx_QuiDVHkGM_1QmVQt9yxM7mKjevBNHKFz.png" alt=""></aside>
         </section>
 
         <section id="questions">
@@ -75,8 +78,10 @@
 
             <div>
                 <p>Pronto para assitir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                <input type="email" name="" id="fmail" class="mail">
-                <input type="submit" value="Vamos lá >" class="entrar">
+                <form action="xesq.js" autocomplete="on">
+                    <input type="email" name="" id="fmail" class="mail" autocomplete="email" placeholder="Email">
+                    <input type="submit" value="Vamos lá >" class="entrar">
+                </form>
             </div>
         </section>
     </main>

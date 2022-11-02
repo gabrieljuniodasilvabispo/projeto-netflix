@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Netflix regular';
+    src: url(../fontes/NetflixSans-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Netflix light';
+    src: url(../fontes/NetflixSans-Light.otf) format('opentype');
+}
+@font-face {
+    font-family: 'Netflix bold';
+    src: url(../fontes/NetflixSans-Bold.otf) format('opentype');
+}
+
+header {
+    height: 680px;
+    font-size: 2em;
+}
+
+header h1 {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+header menu {
+    margin-right: 40px;
+}
+
+header select {
+    padding: 6px;
+    margin-top: 15px;
+}
+
+header a {
+    margin-left: 30px;
+    padding: 7px 15px;
+    display: inline-block;
+}
+
+header p.second-p {
+    margin-left: 100px;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+header input#email {
+    width: 30%;
+    height: 60px;
+}
+
+header input.entrar {
+    height: 60px;
+    width: 160px;
+    font-size: 24px;
+    transform: translate(-5px, 2px);
+}
+
+header div.cabeca2 {
+    transform: translate(0px, 120px);
+}
+
+section.content-desktop {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section div.content {
+    width: 40%;
+    margin-left: 50px;
+}
+
+section div#left {
+    order: 2;
+}
+
+section div#left2 {
+    order: 2;
+}
+
+section img {
+    height: 400px;
+    margin-right: 50px;
+}
+
+section aside.photo-right {
+    order: 1;
+}
+
+section aside.photo-left {
+    order: 0;
+}
