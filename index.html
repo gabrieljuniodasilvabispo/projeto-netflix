@@ -26,10 +26,12 @@
             <h2>Filmes, séries e muito mais. Sem limites.</h2>
             <p>Assista onde quiser. Cancele quando quiser</p>
             <p class="second-p">Pronto para assistir? Informe seu email para criar ou reinicar sua assinatura.</p>
-            <form action="cadastro.js" method="post" autocomplete="on">
-                <input type="email" name="" id="email" class="mail" placeholder="Email" autocomplete="email">
-                <input type="submit" value="Vamos lá >" class="entrar">
-            </form>
+            <div id="conteiner">
+                <form action="cadastro.js" method="post" autocomplete="on">
+                    <input type="email" name="" id="email" class="mail" placeholder="Email" autocomplete="email">
+                    <input type="submit" value="Vamos lá >" class="entrar">
+                </form>
+            </div>
         </div>
     </header>
 
@@ -67,7 +69,7 @@
         </section>
 
         <section id="questions">
-            <h2>Perguntas Frequentes</h2>
+            <h2>Perguntas frequentes</h2>
             <div class="ask"><p>Oque é a Netflix?</p></div>
             <div class="ask"><p>Quanto custa a Netflix?</p></div>
             <div class="ask"><p>Onde posso assistir?</p></div>
@@ -76,12 +78,14 @@
             <div class="ask"><p>Oque eu posso assistir?</p></div>
             <div class="ask"><p>A netflix é adequada para crianças?</p></div>
 
-            <div>
+            <div id="inputs">
                 <p>Pronto para assitir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                <form action="xesq.js" autocomplete="on">
-                    <input type="email" name="" id="fmail" class="mail" autocomplete="email" placeholder="Email">
-                    <input type="submit" value="Vamos lá >" class="entrar">
-                </form>
+                <div id="contenedor">
+                    <form action="xesq.js" autocomplete="on">
+                        <input type="email" name="" id="fmail" class="mail" autocomplete="email" placeholder="Email">
+                        <input type="submit" value="Vamos lá >" class="entrar" id="go">
+                    </form>
+                </div>
             </div>
         </section>
     </main>

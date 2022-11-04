@@ -44,20 +44,29 @@ header p.second-p {
     font-size: 17px;
 }
 
+div.cabeca2 div#conteiner {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 header input#email {
-    width: 30%;
+    width: 380px;
     height: 60px;
 }
 
 header input.entrar {
-    height: 60px;
-    width: 160px;
-    font-size: 24px;
-    transform: translate(-5px, 2px);
+    padding: 10px 10px 10px 10px;
+    padding-bottom: 17px;
+    font-size: 0.8em;
+    width: 180px;
+    margin-left: -5px;
 }
 
 header div.cabeca2 {
-    transform: translate(0px, 120px);
+    margin-top: 120px;
 }
 
 section.content-desktop {
@@ -91,4 +100,43 @@ section aside.photo-right {
 
 section aside.photo-left {
     order: 0;
+}
+
+section#questions {
+    height: 900px;
+}
+
+section#questions h2 {
+    font-size: 3em;
+}
+
+section#questions div.ask {
+    margin: auto;
+    width: 60%;
+    height: 70px;
+    font-size: 1.5em;
+}
+
+section#questions div#inputs {
+    margin-top: 70px;
+}
+
+div#contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div#contenedor input#go {
+    padding: 10px 10px 10px 10px;
+    padding-bottom: 17px;
+    font-size: 1.5em;
+    width: 180px;
+    margin-left: -3px;
+}
+
+div#contenedor input#fmail {
+    width: 380px;
+    height: 60px;
 }

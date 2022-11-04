@@ -162,7 +162,7 @@ section div.ask {
 }
 
 div.ask p {
-    transform: translate(0px, 15px);
+    padding-top: 13px;
 }
 
 section#questions p {
