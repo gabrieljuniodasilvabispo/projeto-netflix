@@ -1,5 +1,8 @@
 function Textappear() {
-    let bloco = document.getElementsByClassName('ask')
+    let bloco = document.getElementsByClassName('ask')[0]
 
-    document.bloco.style.display = 'none'
+    document.bloco.style.background = 'red'
+    //if(bloco.style.display == 'block') {
+    //document.bloco.style.display = 'none'
+    //}
 }
