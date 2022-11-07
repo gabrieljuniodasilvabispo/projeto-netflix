@@ -16,6 +16,7 @@
 header {
     height: 680px;
     font-size: 2em;
+    box-shadow: inset 0px 0px 700px 200px black;
 }
 
 header h1 {
